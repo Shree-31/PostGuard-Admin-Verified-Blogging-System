@@ -1,0 +1,29 @@
+.ms-250 {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  .sidebar {
+    width: 250px;  /* Adjust the width of the sidebar */
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background: #222; /* Dark background */
+    color: white;
+    padding: 20px;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
+  .container {
+    margin-left: 250px; /* Adjust based on sidebar width */
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+    
